@@ -23,7 +23,7 @@ int main() {
     for (int i = 0; i < N; ++i) {
         cin >> a[i];
     }
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; ++i) {//inversion
         b[N - i - 1] = a[i];
     }
     cout << "Linta invertida:" << endl;

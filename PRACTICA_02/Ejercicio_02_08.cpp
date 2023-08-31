@@ -36,9 +36,9 @@ int main() {
         cout << m[i] << ": ";
         cin >> v[i];
         t += v[i];
-        if (v[i] > x) {
+        if (v[i] > x) { //seleacciona la venta maxima
             x = v[i];
-            y = i;
+            y = i;// pa pósicion de la venta maxima
         }
     }
     if (y != -1) {

@@ -19,14 +19,14 @@ int main() {
     cout << "Ingrese los valores para parar ingrese un numero negativo:" << endl;
     while (c < q) {
         cin >> n;
-        if (n < 0) {
+        if (n < 0) {//asegurarse que pare en el negativo
             break;
         }
         l[c] = n;
         c++;
     }
     cout << "LIsta:" << endl;
-    for (int i = 0; i < c; i++) {
+    for (int i = 0; i < c; i++) { 
         cout << l[i] << "\t";
     }
     cout << endl;

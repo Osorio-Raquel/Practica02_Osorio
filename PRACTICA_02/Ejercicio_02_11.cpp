@@ -15,7 +15,7 @@
 using namespace std;
 
 int main() {
-    const int a = 99999; 
+    const int a = 99999; //limite del sting
     int e[a], d, c = 0;
     double s = 0, x = 0.0, p, dif, y;
     cout << "Ingrese las edades de las personas y -1 para terminar:" << endl;

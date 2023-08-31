@@ -37,7 +37,7 @@ int main() {
     int a[N];
     cout << "Lista:" << endl;
     for (int i = 0; i < N; ++i) {
-        a[i] = rand() % (B-A) ;  // Generar num aleatorios en el rango de A - B
+        a[i] = rand() % B + A ;  // Generar num aleatorios en el rango de A a B
         cout << a[i] << " ";
     }
     for (int i = 0; i < N; ++i) {

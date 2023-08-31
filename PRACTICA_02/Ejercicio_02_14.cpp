@@ -15,7 +15,7 @@
 
 using namespace std;
 
-bool d(int n) {
+bool d(int n) { //funcion capicua
     int r = n, i = 0;
     while (n > 0) {
         int digito = n % 10;

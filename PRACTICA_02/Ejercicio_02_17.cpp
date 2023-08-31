@@ -15,7 +15,7 @@
 using namespace std;
 
 int main() {
-    int a[5], x = 0, y = 100;
+    int a[5], x = 0, y = 100; //para sacar el minimo y el maximo
     double s = 0;
     cout << "Ingresen las notas" << endl;
     for (int i = 0; i < 5; i++) {

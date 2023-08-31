@@ -26,14 +26,14 @@ int main() {
     }
     for ( i = 0; i < N; ++i) {
         b[i] = a[i] * a[i];
-        c[i] = a[i] * a[i] * a[i];
+        c[i] = a[i] * a[i] * a[i];//creacion de las listas
     }
     cout << "Lista: " << endl;
     for ( i = 0; i < N; ++i) {
         cout << a[i]<< " ";
     }
     cout << endl;
-    cout << "Listade cuadrados: " << endl;
+    cout << "Lista de cuadrados: " << endl; 
     for ( i = 0; i < N; ++i) {
         cout << b[i]<< " ";
     }
